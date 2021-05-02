@@ -70,7 +70,8 @@ body, html{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
+    position: relative;
+
     background-color: rgba(0, 0, 0, 0.8);
     list-style: none;
     margin: 10px auto;
@@ -78,6 +79,14 @@ body, html{
     color:#ffffff;
     font-weight: 600;
     font-size: 1.6em;
+}
+
+#nav-logo{
+    position: absolute;
+    border-radius: 10px;
+    width: 50px;
+    top: -5px;
+
 }
 
 ul{
@@ -107,6 +116,10 @@ a {
         font-size: 1.4em;
         padding: 0;
         margin: 10px 0;
+    }
+    #nav-logo{
+        width: 35px;
+        top: 0;
     }
 }
 
@@ -166,7 +179,7 @@ p{
     width: 100%;
 }
 
-#logo_nav{
+#main-logo{
     border-radius: 10px;
     display: block;
     width: 120px;
@@ -176,6 +189,18 @@ p{
 
 #logo_nav:hover{
     transform: scale(1.2);
+}
+
+@media only screen and (max-width: 800px) {
+    #main-logo{
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #main-logo{
+        width: 80px;
+    }
 }
 
 /*---------------------------------------------------*/
