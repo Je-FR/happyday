@@ -1,7 +1,7 @@
 /*---------------------------------------------------*/
 /*------------------- Common Tags -------------------*/
 /*---------------------------------------------------*/
-body, html{
+body{
     margin: 0 auto;
     height: auto;
     width: 100%;
@@ -74,7 +74,7 @@ body, html{
 
     background-color: rgba(0, 0, 0, 0.8);
     list-style: none;
-    margin: 10px auto;
+    margin: 10px 0;
     
     color:#ffffff;
     font-weight: 600;
@@ -114,8 +114,6 @@ a {
 @media only screen and (max-width: 800px) {
     .main-nav {
         font-size: 1.4em;
-        padding: 0;
-        margin: 10px 0;
     }
     #nav-logo{
         width: 35px;
@@ -126,8 +124,7 @@ a {
 @media only screen and (max-width: 650px) {
     .main-nav {
         font-size: 1em;
-        padding: 0;
-        margin: 10px 0;
+        flex-wrap: wrap;
     }
 }
 
