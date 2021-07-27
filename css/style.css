@@ -1,58 +1,62 @@
-/*---------------------------------------------------*/
-/*------------------- Common Tags -------------------*/
-/*---------------------------------------------------*/
-body{
-    margin: 0 auto;
-    height: auto;
-    width: 100%;
-    font-family: 'Barlow', sans-serif;
-    /*font-family: 'Assistant', sans-serif;
-    /*font-family: 'Righteous', cursive;
-    /*font-family: 'Playball', cursive;
-    /*font-family: 'Roboto', sans-serif; 
-    font-family: 'Noto Sans JP', sans-serif;*/    
+/*--- style.css ---*/
+html{
+    font-size: 62.5%;
 }
+
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #333;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #6e6c6c, #1a1616);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Barlow', sans-serif;
+    /*font-family: 'Roboto', sans-serif; */     
+}
+
+.container{
+    background-color: #eee;
+    width: 90%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-rows: repeat(2, 150px);
+    grid-template-columns: repeat(3,16%) 1fr 2fr;
+    column-gap: 1%;
+    row-gap: 10px;
+}
+
+
 #index{    
     background: url(../styles/back_combi_01.jpg) no-repeat  center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
+
 #services{
     background: url(../styles/back_combi_02.jpg) no-repeat  center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
+
 #photos{
-    background: url(../styles/back_combi_03.jpg) no-repeat  center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;    
+    background: url(../styles/back_combi_03.jpg) no-repeat  center center fixed;   
 }
+
 #tarifs{
     background: url(../styles/back_combi_04.jpg) no-repeat  center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;    
 }
+
 #partenaires{
-    background: url(../styles/back_combi_05.jpg) no-repeat  center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;    
+    background: url(../styles/back_combi_05.jpg) no-repeat  center center fixed;  
 }
+
 #contact{
-    background: url(../styles/back_combi_06.jpg) no-repeat  center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;    
+    background: url(../styles/back_combi_06.jpg) no-repeat  center center fixed;   
 }
 
 .zone {
@@ -63,35 +67,25 @@ body{
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
-/*---------------------------------------------------*/
-/*--------------------- Main Nav --------------------*/                
-/*---------------------------------------------------*/
+
+/*--- Main Nav ---*/
 .main-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    position: relative;
-
-    background-color: rgba(0, 0, 0, 0.8);
-    list-style: none;
-    margin: 10px 0;
-    
-    color:#ffffff;
-    font-weight: 600;
-    font-size: 1.6em;
+    background-color: #2e2e2e48;
+    width: 90%;
+    margin: 30px auto;
+    display: grid;
 }
 
-#nav-logo{
-    position: absolute;
-    border-radius: 10px;
-    width: 50px;
-    top: -5px;
-
-}
-
-ul{
-    padding: 0;
-}
+ul {
+    display:  inline-block;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0px;
+  }
 
 li {
     padding: 10px 20px;
