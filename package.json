@@ -1,0 +1,22 @@
+{
+  "name": "startup-xxx",
+  "version": "1.0.0",
+  "description": "website for elchapito",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jijouFR/startup-xxx.git"
+  },
+  "author": "jijou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jijouFR/startup-xxx/issues"
+  },
+  "homepage": "https://github.com/jijouFR/startup-xxx#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

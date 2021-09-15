@@ -10,10 +10,10 @@ html{
 }
 
 body{
-    background: #333;
-    width: 100%;
+    background: #DEC7C6;
+    width: 100vw;
     height: 100vh;
-    background: linear-gradient(45deg, #6e6c6c, #1a1616);
+    background: linear-gradient(45deg, #dfdede, #8d8c8c);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -23,6 +23,75 @@ body{
     /*font-family: 'Roboto', sans-serif; */     
 }
 
+header{
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    height: 100px;
+    background: linear-gradient(120deg, #99a8d3 0%, #102d7c 100%);
+    box-shadow: 0 0 10px #102d7c;
+}
+
+nav{
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+    z-index: 20;
+    background: linear-gradient(120deg, #fcfcfc 0%, #e6e6e6 100%);
+    border-radius: 20px;
+    box-shadow: 0 0 10px #888;
+}
+
+h1{
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 6em;
+    padding: 10px 0 20px 0;
+}
+
+nav span{
+    font-family: 'Kaushan Script', cursive;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    color: #000;
+    font-size: 2.6em;
+}
+
+.nav-box{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background: linear-gradient(120deg, #383838 0%, #666666 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 4px #505050;
+    text-align: center;
+    color: #fff;
+    font-size: 1.8em;
+    padding-top: 40px;
+}
+
+#nav-link-services{
+    left: 10px;
+    top: 210px;
+}
+#nav-link-about{
+    left: 125px;
+    top: 285px;
+}
+#nav-link-galery{
+    right: 125px;
+    top: 285px;
+}
+#nav-link-contact{
+    right: 10px;
+    top: 210px;
+}
+
+
+/* 
 .container{
     background-color: #eee;
     width: 90%;
@@ -69,7 +138,7 @@ body{
 
 
 /*--- Main Nav ---*/
-.main-nav {
+/* .main-nav {
     background-color: #2e2e2e48;
     width: 90%;
     margin: 30px auto;
@@ -120,24 +189,18 @@ a {
         font-size: 1em;
         flex-wrap: wrap;
     }
-}
+} */
 
 /*---------------------------------------------------*/
 /*---------------------- Cover ----------------------*/                
 /*---------------------------------------------------*/
-.container {
+/* .container {
     height: auto; 
     width: 70vw;
     margin: 40px auto;
     background-color: #ffffff99;
 }
 
-h1{
-    font-family: 'Kaushan Script', cursive;
-    text-align: center;
-    font-size: 2.2em;
-    padding: 10px 0 20px 0;
-}
 
 p{
     text-align: justify;
@@ -161,12 +224,12 @@ p{
     p{
         font-size: 0.8em;
     }
-}
+} */
 
 /*---------------------------------------------------*/
 /*---------------------- Logo -----------------------*/                
 /*---------------------------------------------------*/
-.logo{
+/* .logo{
     width: 100%;
 }
 
@@ -192,16 +255,16 @@ p{
     #main-logo{
         width: 80px;
     }
-}
+} */ */
 
 /*---------------------------------------------------*/
 /*--------------------- Footer ----------------------*/                
 /*---------------------------------------------------*/
-footer {
+/* footer {
     position: relative;
     top: 90% ;
     text-align: center;
-}
+} */
 
 
 /***********************************************************************
