@@ -13,7 +13,7 @@ body{
     background: #DEC7C6;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(45deg, #dfdede, #8d8c8c);
+    background: linear-gradient(120deg, #fcfcfc 0%, #e6e6e6 100%);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -28,8 +28,8 @@ header{
     position: relative;
     z-index: 10;
     height: 100px;
-    background: linear-gradient(120deg, #99a8d3 0%, #102d7c 100%);
-    box-shadow: 0 0 10px #102d7c;
+    background: linear-gradient(120deg, #383838 0%, #666666 100%);
+    box-shadow: 0 0 6px #383838;
 }
 
 nav{
@@ -39,20 +39,22 @@ nav{
     position: relative;
     top: -50px;
     z-index: 20;
-    background: linear-gradient(120deg, #fcfcfc 0%, #e6e6e6 100%);
     border-radius: 20px;
-    box-shadow: 0 0 10px #888;
+    background: linear-gradient(45deg, #dfdede, #8d8c8c);
+    box-shadow: 0 0 6px #888;
+    font-family: 'Kaushan Script', cursive;
 }
 
 h1{
     font-family: 'Kaushan Script', cursive;
     text-align: center;
     font-size: 6em;
-    padding: 10px 0 20px 0;
+    color:  #000;
+    padding: 80px 0 10px 0;
 }
 
 nav span{
-    font-family: 'Kaushan Script', cursive;
+    /* font-family: 'Kaushan Script', cursive; */
     width: 100%;
     display: inline-block;
     text-align: center;
@@ -62,31 +64,43 @@ nav span{
 
 .nav-box{
     position: absolute;
-    width: 110px;
-    height: 110px;
-    background: linear-gradient(120deg, #383838 0%, #666666 100%);
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    box-shadow: 0 0 4px #505050;
+    box-shadow: 0 0 20px #505050;
     text-align: center;
+    background: linear-gradient(120deg, #383838 0%, #666666 100%);
     color: #fff;
-    font-size: 1.8em;
-    padding-top: 40px;
+    font-size: 2.2em;
+    line-height: 120px;
+    /* padding-top: 40px; */
+    vertical-align: middle;
+}
+
+#container-logo{
+    margin:auto;
+    width:400px;
+    height: 100%;
+}
+#container-logo img{
+    height: 50px;
+    width: 50px;
 }
 
 #nav-link-services{
-    left: 10px;
+    left: -20px;
     top: 210px;
 }
 #nav-link-about{
-    left: 125px;
-    top: 285px;
+    left: 110px;
+    top: 320px;
 }
 #nav-link-galery{
-    right: 125px;
-    top: 285px;
+    right: 110px;
+    top: 320px;
 }
 #nav-link-contact{
-    right: 10px;
+    right: -20px;
     top: 210px;
 }
 
